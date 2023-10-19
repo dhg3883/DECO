@@ -1,0 +1,32 @@
+
+.material-symbols-outlined {
+    line-height: 1.5;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.navbar-nav .nav-link.active {
+    color: #23ff2e;
+}
+.nav-link {
+    color: #aeffb2;
+}
+
+.nav-link:hover {
+    color: #23ff2e;
+    transition: all 0.2s ease-in;
+}
+.navbar.navbar-expand-lg {
+    background-color: #6ba76b;
+}
+.navbar-brand{
+    display: block;
+}
+.navbar-brand img{
+    height: auto;
+    width: 50px;
+}
+
+

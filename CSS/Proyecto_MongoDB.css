@@ -1,0 +1,338 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Eras ITC", sans-serif;
+}
+
+/* Estilos para las tarjetas */
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+
+.card img {
+    width: 100%;
+    height: 500px;
+    border-radius: 3px;
+    transition: all 0.5s ease-out;
+    
+    filter: (50%);
+}
+
+.con{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #7bbb7f;
+    padding: 10px;
+    opacity: 1;
+    transform: translateY(75%);
+    /* Empuja el card-body hacia abajo, fuera de la vista inicialmente */
+    transition: all 0.5s ease-in;
+
+}
+.bodycard{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #7bbb7f;
+    padding: 10px;
+    opacity: 1;
+    transform: translateY(75%);
+    /* Empuja el card-body hacia abajo, fuera de la vista inicialmente */
+    transition: all 0.5s ease-in;
+}
+
+.card:hover .con {
+    opacity: 1;
+    transform: translateY(1%);
+    /* Mueve el card-body a la mitad de la imagen en posición vertical */
+    height: 55%;
+    /* Establece la altura del card-body al 50% para cubrir solo la mitad de la imagen */
+}
+
+.card .nombre {
+    font-size: 30px;
+    color: #000000;
+    transition: all 0.5s ease-in;
+}
+
+.card:hover .nombre {
+    font-size: 30px;
+}
+
+.NOMBOBRACO {
+    opacity: 0;
+}
+
+
+.profile {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0;
+    /* Asegúrate de que no haya margen inferior */
+    padding-bottom: 0;
+    /* Asegúrate de que no haya relleno inferior */
+
+}
+
+.card-body {
+    transition: all 0.5s ease-out;
+}
+
+
+.card:hover .NOMBOBRACO {
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    bottom: 20px;
+}
+
+/* .contenedor:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+} */
+
+
+.contenedor {
+    overflow: hidden;
+}
+
+.cont .card {
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: all 0.5s ease-in;
+}
+
+#carta {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+}
+
+#sexo {
+    background-color: #16be16;
+    color: #fefefe;
+    transition: all 0.5s ease-out;
+}
+
+#sexo:hover {
+    background-color: #19ff4b;
+    color: #007206;
+    transition: all 0.5s ease-in;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+}
+
+#carta h4 {
+    color: #23ff23;
+    display: block;
+
+}
+
+#com h4 {
+    color: #23ff23;
+}
+
+#comentarios li {
+    font-size: 20px;
+    color: #007200;
+}
+
+#mod {
+    color: #fefefe;
+    background-color: #16be24;  
+    transition: all 0.5s ease-out;
+}
+
+#mod:hover {
+    color: #000000;
+    background-color: rgb(25, 0, 255);
+    transition: all 0.5s ease-in;
+}
+
+#del {
+    color: rgb(253, 184, 184);
+    transition: all 0.5s ease-in;
+}
+
+#del:hover {
+    background-color: rgb(63, 0, 0);
+    color: red;
+}
+
+
+.menu_bar {
+    display: none;
+}
+
+.children {
+    margin-left: 0;
+}
+
+section {
+    margin-top: 30px;
+    padding: 80px;
+}
+
+footer {
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: blanchedalmond;
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    margin: 5px;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+body {
+    background-color: #e1ffcd;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contenedoradmin {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+#comentarios {
+    text-align: justify;
+}
+
+#ad {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+.footericon {
+    font-size: 30px;
+    color: #2cff19;
+    transition: all 0.5s ease-in;
+}
+.footericon:hover{
+    transition: all 0.5s ease-out;
+    color: #007200;
+    
+}
+#bigYellowCircle {
+    background-image: url("https://www.kirupa.com/images/yellow_circle.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    opacity: .75;
+}
+#blueSquare {
+    background-image: url("https://www.kirupa.com/images/blue_square.svg");
+    background-repeat: no-repeat;
+    background-position: 97% bottom;
+    background-size: 10%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -2;
+    opacity: .75;
+}
+#greenPentagon {
+    background-image: url("https://www.kirupa.com/images/green_pentagon.svg");
+    background-repeat: no-repeat;
+    background-position: 5% top;
+    background-size: 50%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -3;
+    opacity: .75;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/IMG/panoramica.jpeg");
+  
+    /* Full height */
+    height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#info{
+    width: 100%;
+    display: block;
+    background-color: #aeffb2;
+}
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .containr:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containr:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }

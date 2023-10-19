@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        <div class="text-center w-25">
+            <input class="form-control" type="text" id="email" placeholder="Email">
+            <br>
+            <input class="form-control" type="password" id="password" placeholder="Password">
+            <br>
+            <input class="btn btn-primary mb-3" type="button" value="Login" onclick="Login()">
+        </div>
+    </div>
+    <script src="/funcioncine"></script>
+    <script type="text/javascript">
+        function Login(params) {
+            var personainstanciada = new login(
+                '','','',
+                document.getElementById('email').value,
+                '',
+                document.getElementById('password').value)
+            personainstanciada.Login().then(function(response){
+                if(response != "error"){
+                    alert("Login exitoso")
+                    location.href='register?email=' + response[0].email + '&password=' + response[0].password
+                }else{
+                    alert("Algun dato es erroneo")
+                }
+            }, function(error){
+                console.error("ERROR", error)
+                alert("Error"+error)
+            })
+        }
+    </script>
+
+</body>
+</html>
