@@ -49,9 +49,12 @@ section{
     width: 100%;
 }
 .titulo{
-    font-size: 150px;
+    font-size: 10vw;
     background-image: url(../IMG/jonathan-chng-OTDyDgPoJ_0-unsplash.jpg);
     background-repeat: no-repeat;
+}
+.titulo img{
+    height: 30vw;
 }
 .paralla{
         /* The image used */
@@ -68,4 +71,21 @@ section{
         color: aliceblue;
         border-radius: 10px;
       
+}
+h1:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+h1 img{
+    height: auto;
+    width: 50%;
+}
+.centro{
+    display: grid;
+    place-items: center;
+}
+.centro img{
+    border-radius: 1000pc;
 }
