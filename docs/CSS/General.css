@@ -19,6 +19,7 @@
     transition: all 0.2s ease-in;
 }
 .navbar.navbar-expand-lg {
+    margin-top: -10px;
     background-color: #6ba76b;
 }
 .navbar-brand{
@@ -28,5 +29,43 @@
     height: auto;
     width: 50px;
 }
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
 
-
+}
+.hidden{
+    opacity: 0;
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+}
+.imgs{
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+.titulo{
+    font-size: 150px;
+    background-image: url(../IMG/jonathan-chng-OTDyDgPoJ_0-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+.paralla{
+        /* The image used */
+        background-image: url("../IMG/kevin-lehtla-tPJI_XIMDHE-unsplash.jpg");
+      
+        /* Full height */
+        height: 100%;
+      width: 100%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+        border-radius: 10px;
+      
+}

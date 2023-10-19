@@ -56,8 +56,34 @@ footer {
 }
 h1{
     font-size: 4rem;
+    transition: 0.5s;
+}
+h1:hover{
+    background-color: #000000;
+    color: aliceblue;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 75%;
+    width: 100%;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../IMG/panoramica.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
 }

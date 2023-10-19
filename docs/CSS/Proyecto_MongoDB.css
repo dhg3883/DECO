@@ -1,8 +1,10 @@
 /* Estilos generales */
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: "Eras ITC", sans-serif;
+    font-family: "Poppins";
 }
 
 /* Estilos para las tarjetas */
@@ -335,4 +337,7 @@ body {
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+  }
+  p{
+    align-self: baseline;
   }
