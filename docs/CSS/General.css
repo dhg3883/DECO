@@ -92,7 +92,9 @@ h1 img {
 .centro {
   display: grid;
   place-items: center;
+
 }
 .centro img {
   border-radius: 1000pc;
+  width: 100%;
 }
