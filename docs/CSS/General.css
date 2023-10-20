@@ -1,91 +1,98 @@
-
 .material-symbols-outlined {
-    line-height: 1.5;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+  line-height: 1.5;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 .navbar-nav .nav-link.active {
-    color: #23ff2e;
+  color: #23ff2e;
 }
 .nav-link {
-    color: #aeffb2;
+  color: #aeffb2;
 }
 
 .nav-link:hover {
-    color: #23ff2e;
-    transition: all 0.2s ease-in;
+  color: #23ff2e;
+  transition: all 0.2s ease-in;
 }
 .navbar.navbar-expand-lg {
-    margin-top: -10px;
-    background-color: #6ba76b;
+  margin-top: -10px;
+  background-color: #6ba76b;
 }
-.navbar-brand{
-    display: block;
+.navbar-brand {
+  display: block;
 }
-.navbar-brand img{
-    height: auto;
-    width: 50px;
+.navbar-brand img {
+  height: auto;
+  width: 50px;
 }
-section{
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+.hidden {
+  opacity: 0;
+  transition: all 2s;
+}
+.show {
+  opacity: 1;
+}
+.imgs {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+.titulo img {
+  height: 30vw;
+}
+.titulo {
+  font-size: 10vw;
 
+  background-repeat: no-repeat;
+  background-size: 50%;
+  /* The image used */
+  background-image: url("../IMG/jonathan-chng-OTDyDgPoJ_0-unsplash.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  border-radius: 10px;
 }
-.hidden{
-    opacity: 0;
-    transition: all 2s;
+.paralla {
+  /* The image used */
+  background-image: url("../IMG/kevin-lehtla-tPJI_XIMDHE-unsplash.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  border-radius: 10px;
 }
-.show{
-    opacity: 1;
+h1:hover {
+  background-color: black;
+  color: aliceblue;
+  transition: all 0.5s;
+  border-radius: 15px;
 }
-.imgs{
-    border-radius: 10px;
-    height: auto;
-    width: 100%;
+h1 img {
+  height: auto;
+  width: 50%;
 }
-.titulo{
-    font-size: 10vw;
-    background-image: url(../IMG/jonathan-chng-OTDyDgPoJ_0-unsplash.jpg);
-    background-repeat: no-repeat;
+.centro {
+  display: grid;
+  place-items: center;
 }
-.titulo img{
-    height: 30vw;
-}
-.paralla{
-        /* The image used */
-        background-image: url("../IMG/kevin-lehtla-tPJI_XIMDHE-unsplash.jpg");
-      
-        /* Full height */
-        height: 100%;
-      width: 100%;
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: aliceblue;
-        border-radius: 10px;
-      
-}
-h1:hover{
-    background-color: black;
-    color: aliceblue;
-    transition: all 0.5s;
-    border-radius: 15px;
-}
-h1 img{
-    height: auto;
-    width: 50%;
-}
-.centro{
-    display: grid;
-    place-items: center;
-}
-.centro img{
-    border-radius: 1000pc;
+.centro img {
+  border-radius: 1000pc;
 }
