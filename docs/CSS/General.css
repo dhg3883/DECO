@@ -6,7 +6,7 @@
   color: #23ff2e;
 }
 .nav-link {
-  color: #aeffb2;
+  color: #006837;
 }
 
 .nav-link:hover {
@@ -14,8 +14,8 @@
   transition: all 0.2s ease-in;
 }
 .navbar.navbar-expand-lg {
-  margin-top: -10px;
-  background-color: #6ba76b;
+  margin-top: -20px;
+  background-color: #000;
 }
 .navbar-brand {
   display: block;
@@ -24,15 +24,33 @@
   height: auto;
   width: 50px;
 }
-section {
+.right {
+  display: grid;
+  place-items: start;
+  align-content: start;
+  background-color: black;
+  color: white;
+  margin-bottom: 15%;
+  padding: 5%;
+}
+.left {
+  display: grid;
+  place-items: end;
+  align-content: end;
+  margin-top: -10px;
+  margin-bottom: 15%;
+  padding: 5%;
+}
+.center {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 100vh;
+  margin-bottom: 15%;
+  padding: 5%;
 }
 .hidden {
   opacity: 0;
-  transition: all 2s;
+  transition: all 1s;
 }
 .show {
   opacity: 1;
@@ -79,11 +97,18 @@ section {
   color: aliceblue;
   border-radius: 10px;
 }
-h1:hover {
+.tit{
+  color: white;
   background-color: black;
-  color: aliceblue;
-  transition: all 0.5s;
-  border-radius: 15px;
+  font-size: 500%;
+}
+
+.tite{
+  color: white;
+  background-color: black;
+}
+.tito{
+  font-size: 500%;
 }
 h1 img {
   height: auto;
@@ -95,6 +120,26 @@ h1 img {
 
 }
 .centro img {
-  border-radius: 1000pc;
-  width: 100%;
+  width: 60%;
+}
+.parallax{
+  background-color: black;
+  height: 100%;
+}
+.parallax img{
+  align-self: center;
+  position: relative;
+  right: -35%;
+  height: 30%;
+  width: 30%;
+  margin-top: 5%;
+}
+/* #DECO{
+  background-color: #80c580;
+}
+#Plastico{
+  background-color: #bfffc5;
+} */
+tr{
+  border: 1px solid  #000;
 }
