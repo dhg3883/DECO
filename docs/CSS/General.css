@@ -52,13 +52,13 @@
   opacity: 0;
   transition: all 1s;
 }
-.show {
+.showw {
   opacity: 1;
 }
 .imgs {
   border-radius: 10px;
   height: auto;
-  width: 100%;
+  width: 80%;
 }
 .titulo img {
   height: 30vw;
@@ -106,6 +106,7 @@
 .tite{
   color: white;
   background-color: black;
+  font-size: 500%;
 }
 .tito{
   font-size: 500%;
@@ -142,4 +143,15 @@ h1 img {
 } */
 tr{
   border: 1px solid  #000;
+}
+@media screen and (max-width: 800px) {
+  .tit{
+    font-size: 300%;
+  }
+  .tito{
+    font-size: 300%;
+  }
+  .tite{
+    font-size: 300%;
+  }
 }
