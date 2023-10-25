@@ -163,6 +163,9 @@ tr{
     background-color: #000;
     margin-left: -15px;
   }
+  .qr{
+    width: 100%;
+  }
 }
 .mama{
   z-index: 400;
@@ -172,5 +175,5 @@ tr{
   margin-left: 37%;
 }
 .qr{
-  width: 400px;
+  width: 50%;
 }
