@@ -6,23 +6,23 @@
   color: #23ff2e;
 }
 .nav-link {
-  color: #006837;
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: #23ff2e;
+  color: #8cc63f;
   transition: all 0.2s ease-in;
 }
 .navbar.navbar-expand-lg {
-  margin-top: -20px;
-  background-color: #000;
+  background-color: #000000;
+  font-size: small;
 }
 .navbar-brand {
   display: block;
 }
 .navbar-brand img {
   height: auto;
-  width: 50px;
+  width: 10%;
 }
 .right {
   display: grid;
@@ -133,7 +133,7 @@ h1 img {
   right: -35%;
   height: 30%;
   width: 30%;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 /* #DECO{
   background-color: #80c580;
@@ -154,4 +154,20 @@ tr{
   .tite{
     font-size: 300%;
   }
+  .mama img{
+    width: 15%;
+    margin-left: 10px;
+  }
+  .mama{
+    width: 120%;
+    background-color: #000;
+    margin-left: -15px;
+  }
+}
+.mama{
+  z-index: 400;
+  top: 0;
+}
+.uloi{
+  margin-left: 37%;
 }

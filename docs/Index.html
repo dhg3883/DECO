@@ -14,24 +14,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
-  <header>
-    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="Index.html"><img src="IMG/logores.png" alt="xd"></a>
+        <a class="navbar-brand pointer-event position-fixed mama" href="#inicio"><img src="IMG/logores.png" alt="xd"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#plas">plásticos <i class="bi bi-recycle"></i></a> 
-                
-            </li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 uloi center">
             <li class="nav-item"> 
               <a class="nav-link" href="#DECO">DECO
                 <i class="bi bi-x-diamond-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plas">Plásticos <i class="bi bi-recycle"></i></a> 
+                
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Con">Contactenos
@@ -45,20 +45,22 @@
   </header>
   <body>
     <div class="parallax">
-    <img src="IMG/logo.png" class="" alt="">
+    <img src="IMG/logo.png" id="inicio" alt="">
     </div>
     <h1 class="text-center tit fw-bold">La nueva forma de utilizar <span class="text-success text-decoration-underline">plástico</span> de forma saludable</h1>
     <section id="DECO">
     <section class="hidden left">
       <h1 class="text-end fw-bold mt-2 tito">¿Qué es DECO?</h1>
       
-      <p class="textop">El proyecto DECO, busca modificar los procesos actuales de moldeo, de plásticos, principalmente el moldeo por compresión o estructuras plásticas para así lograr un proceso más amigable con el ambiente, con enfoque a personas entre 18 años en adelante, quienes busquen una alternativa para la infraestructura no crítica de sus hogares
-        Además de dar un aporte a la problemática de plástico en el mundo</p><span class="hidden centro center parte"> <img src="IMG/horno.jpeg" alt=""></span>
+      <p class="textop">El proyecto DECO, busca modificar los procesos actuales de moldeo, de plásticos, principalmente el moldeo
+         por compresión o estructuras plásticas para así lograr un proceso más amigable con el ambiente, con enfoque a personas 
+         entre 18 años en adelante, quienes busquen una alternativa para la infraestructura no crítica de sus hogares.
+        Además, de dar un aporte a la problemática de plástico en el mundo</p><span class="hidden centro center parte"> <img src="IMG/horno.jpeg" alt=""></span>
     </section>
 
     <section class="hidden right">
       <h1 class="text-center fw-bold tit" style="font-size: 400%;">Propuesta de Valor</h1>
-      <p class="textop">Propuesta de valor del proyecto
+      <p class="textop">La <span class="fw-bolder">Propuesta de valor del proyecto</span>
         El proyecto D-ECO se enfatiza en el aprovechamiento de los desechos de plástico y querer darle otro uso de vida útil en este caso al plástico HDPE o polietileno de alta densidad, está presente en objetos tan cotidianos como botellas, envases, juguetes, cascos, envases de cosméticos y alimentos y topo tipo de objetos domésticos. Siendo el polímero sintético con un mayor volumen de producción en todo el mundo. </p>
     </section>
   
@@ -124,22 +126,22 @@
         <div class="carousel-item active">
           <img src="IMG/marco.jpeg" class="d-block w-100" id="imgmax" alt=".">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Prototipo del horno</h5>
-            <p class="textop">Primeros pasos del horno</p>
+            <h2 class="fw-bold">Prototipo del horno</h2>
+            <p>Primeros pasos del horno</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="IMG/chamba.jpeg" class="d-block w-100" id="imgmax" alt=".">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Lija</h5>
-            <p class="textop">Lijando del molde</p>
+            <h2 class="fw-bold">Lija</h2>
+            <p>Lijando del molde</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="IMG/moldecre.jpeg" class="d-block w-100" id="imgmax" alt=".">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Creacion del molde</h5>
-            <p class="textop">Supervisando el molde</p>
+            <h2 class="fw-bold">Creacion del molde</h2>
+            <p>Supervisando el molde</p>
           </div>
         </div>
       </div>
@@ -179,7 +181,9 @@
       <h1 class=" mb-3 fw-bold tito">Tipos de plásticos</h1>
       
       <p class="textop">Hay muchos tipos de plástico en el mundo cada uno teniendo sus propiedades, funciones, compuestos
-        químicos, etc. Algunos tipos de plástico son:
+        químicos, etc. Hay muchos plásticos que son difíciles de trabajar, a lo cual como
+        Grupo se decidio trabajar con el plástico HDPE.
+        <h2>Algunos tipos de plástico son:</h2> 
         <div class="paralla">
         <ul>
           <li>Tereftalato de Polietileno (PET o PETE)</li>
@@ -191,8 +195,6 @@
             <li>Otros Plásticos (policarbonato, estireno, nylon, etc)</li>
         </ul>
       </div>
-        Claro esta que hay muchos plásticos que son dificeles de trabajar, a lo cual como
-        grupo se decidio trabajar con el plástico HDPE por que
       </p></section>
 
     <section class="hidden right">
@@ -207,7 +209,7 @@
   
   
 </section>
-    <section class="hidden" id="con">
+    <section class="hidden" id="Con">
       <h1 class="tit right fw-bold">Nuestra Información:</h1>
       <div class="cont">
         <div class="contenido">
