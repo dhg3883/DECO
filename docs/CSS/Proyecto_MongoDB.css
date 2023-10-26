@@ -323,6 +323,9 @@ body {
     border-radius: 10px;
   }
   @media screen and (max-width: 900px) {
+    header{
+        display: none;
+    }
     .parte img{
         display: none;
     }
@@ -342,7 +345,7 @@ body {
         display: none;
     }
     .parallax{
-        margin-top: 20px;
+        margin-top: 0px;
     }
     #inicio{
         width: 70%;
